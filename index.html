@@ -1,0 +1,380 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lado a Lado</title>
+
+    <!-- ícone no separador da página -->
+    <link rel="icon" type="image/png" href="imagens/logo-icon.png">
+
+    <link rel="stylesheet" href="css/base.css">
+    <link rel="stylesheet" href="css/home.css">
+    <link rel="stylesheet" href="css/historias.css">
+    <link rel="stylesheet" href="css/individual.css">
+    <link rel="stylesheet" href="css/sobrenos.css">
+    <link rel="stylesheet" href="css/responsivo.css">
+
+    <link href="https://fonts.googleapis.com/css2?family=Alegreya:wght@400;500;600;700&display=swap" rel="stylesheet">
+
+    <script src="JSbase.js" defer></script>
+</head>
+
+<body>
+
+    <!-- CABEÇALHO -->
+    <header class="header home-active">
+
+        <div id="logo">
+            <img src="imagens/Logo fundo site.png" class="logo-home" alt="Logo homepage">
+            <img src="imagens/logo.png" class="logo-pages" alt="LogoLado a Lado">
+        </div>
+
+        <nav id="menu">
+            <input type="checkbox" id="hamburger">
+            <label for="hamburger" class="hamburger"></label>
+
+            <ul id="menuItems">
+                <li><button onclick="navigateTo('historias')">Histórias</button></li>
+                <li><button onclick="navigateTo('home')">Lado a Lado</button></li>
+                <li><button onclick="navigateTo('sobrenos')">Sobre nós</button></li>
+            </ul>
+        </nav>
+
+    </header>
+
+    <!-- HOME -->
+    <section id="home" class="page active">
+
+        <iframe
+            id="bg-video"
+            src="https://www.youtube.com/embed/MAsJnT4O2iY?si=dSWAeHN1w1Vi-Rqn"
+            title="Vídeo de fundo"
+            frameborder="0"
+            allow="autoplay; encrypted-media"
+            referrerpolicy="strict-origin-when-cross-origin"
+            allowfullscreen>
+        </iframe>
+
+        <button class="cta-button" onclick="showSection('historias')">
+            Descobre mais
+        </button>
+
+    </section>
+
+    <!-- HISTÓRIAS -->
+    <section id="historias" class="page">
+
+        <div class="stories-wrapper">
+
+            <h1 class="page-title">As nossas histórias</h1>
+
+            <div class="stories-grid">
+
+                <div class="story-box box1" onclick="showSection('historia1')">
+                    <img src="imagens/Tiago 1.png">
+
+                    <img class="story-icon" src="imagens/pata.png">
+                </div>
+
+                <div class="story-box box2" onclick="showSection('historia2')">
+                    <img src="imagens/Carolina 2.png">
+
+                    <img class="story-icon" src="imagens/pata.png">
+                </div>
+
+                <div class="story-box box3" onclick="showSection('historia3')">
+                    <img src="imagens/Animas 1.png">
+
+                    <img class="story-icon" src="imagens/pata.png">
+                </div>
+
+                <div class="story-box box4" onclick="showSection('historia4')">
+                    <img src="imagens/Fatima 1.png">
+
+                    <img class="story-icon" src="imagens/pata.png">
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- HISTÓRIA 1 -->
+    <section id="historia1" class="page">
+        <div class="story-wrapper">
+
+            <h1 class="story-title">"Foi tudo muito simples com ele..."</h1>
+
+            <div class="story-content">
+
+                <img src="imagens/cão1.png" class="story-img">
+
+                <div class="video-box">
+                    <iframe
+                        src="https://www.youtube.com/embed/GQICHLfcApQ?si=AXZAGMQg9zDReLNy" 
+                        title="YouTube video player"
+                        referrerpolicy="strict-origin-when-cross-origin"
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                        allowfullscreen>
+                    </iframe>
+                </div>
+
+            </div>
+
+            <div class="text-box">
+                <h2>Tiago Pinho</h2>
+
+                <!-- Transcrição entrevista -->
+                <p>As minhas principais dificuldades, se calhar passando logo para um episódio que foi, eu trabalho, tenho um estabelecimento próprio e na altura em que isto aconteceu, antes do Hino, foi numa noite em que eu estava a fazer horas e caiu-me um carregador de um portátil ao chão e eu ao tentar apanhá-lo, facilitei um bocadinho porque não chegava, facilitei um bocadinho, cheguei-me para a ponta da cadeira e caí. Com o Hino isso não aconteceria porque ele chegava-me.</p>
+                <p>Isso foi uma das situações que aconteceu. Isto é um processo longo, depende da forma como nós o vemos ou da forma como nós o entendemos. O que é que eu quero com isto dizer?</p>
+                <p>Eu acredito que para a associação isto envolveu várias preocupações, além de toda a preparação do animal. Eu estou por dentro do processo daquilo que assisti no meu caso e daquilo que acabei por me interessar e acompanhar, mas acredito que isto seja muito mais complexo do que aquilo que eu próprio experienciei. Isto porque desde a nascença, isto são cães que são, entre aspas, selecionados, e depois há toda uma preparação desde a nascença.</p>
+                <p>Eles são muito cedo entregues a um treinador e o treinador começa a trabalhar com o cão no sentido de o acalmar, no sentido de sensibilizar a sons e depois entra a parte de, entre aspas, especialização, que é começar a perceber para que pessoa é que vai o cão e treiná-lo nesse sentido. Para o meu caso, que é uma paraplegia, ele foi treinado de uma forma, mas para uma epilepsia ou para um caso de diabetes ou assim, depois o treino tem que ser adaptado. E depois também é um bocado do cão em si, porque, por exemplo, o Hino desde muito cedo mostrou um hábito muito grande em se adaptar a uma carreira de rodas.</p>
+                <p>No meu caso, e precisamente por aí a pergunta, eu conheci a ÂNIMAS pelas redes sociais, acabei por ir parar ao site, interessei-me um bocado pelo tema, acabei por ir ao site e mandei um email a perguntar por mais informações. Há uma lista, longa, e depois tive que aguardar que chegasse a minha vez, e depois lá está, analisam caso a caso, veem os cães que têm disponíveis para entrega, qual é que está mais preparado para cada caso, e eu penso que depois a distribuição seja um bocadinho por aí. Segundo o que sei, o Hino foi um caso até mais rápido do que normalmente funciona, a fase de adaptação.</p>
+                <p>O Hino demonstrou-se sempre ser um cão muito inteligente e fácil de trabalhar. Aliás, ele muito cedo ficou pronto para ser entregue. Na adaptação, também foi rápido.</p>
+                <p>Supostamente, acho que é ali à volta de um mês, o período de adaptação, ao fim de cerca de 15 dias o Hino lidava comigo como se nós já estivéssemos juntos já há muito tempo. Começaram a vir aqui com ele, ele começou a associar a loja muito rápido, tanto é que a certa altura chegavam ali à esquina do prédio, diziam “loja” ou Tiago e ele, se o soltassem, já sabia para onde é que tinha que ir, entrava pela loja, abria a porta, vai e vem que vocês viram, abria a porta e ia ter comigo, estava ali comigo, depois vínhamos até cá fora, passeávamos, fazíamos as coisas que ele hoje me ajuda, e foi muito rápido. 15 dias, 3 semanas, ele já estava a passar dias inteiros comigo. Já o vinham deixar e ele passava dias inteiros comigo.</p>
+                <p>Depois também foi em casa, também foram com ele à casa, perceber qual era as minhas necessidades, o chegar-me o calçado, familiarizar-se com os passos e com as portas que ele abre e fecha, e foi tudo muito simples com ele.</p>
+                <p>São coisas diferentes. Ele, como cão, faz sempre o papel dele, que é principalmente companhia. Não é principalmente, o que quero dizer com isto? A base é sempre essa. Eu a dormir não preciso do cão a 100% como cão de assistência, mas ele está lá a aconchegar-me e eu a ele.</p>
+                <p>Por exemplo, se estiver descontraído em casa, sei que se precisa dele, ele está pronto, mas ele está a fazer companhia. Mas principalmente como cão de assistência, ele ajuda-me muito. Mas é bom percebermos outra coisa, que é, está aqui um cão que merece ser respeitado, como cão que é. E ele também tem que ter a brincadeira dele, o espaço dele, ele às vezes também o quer, o espaço dele, a zona de conforto dele, não é só trabalho, nem pode ser. A coisa incrível da associação é que existe muito essa preocupação. Mesmo na entrega do cão, há sempre um… Aliás, além do trabalho das psicólogas, que também acompanham o processo, há sempre a preocupação de saber se a pessoa também tem condições para o ter. Não vamos ser hipócritas, isto envolve custos. Não é só ter o cão, há tratamentos e cuidados veterinários, há alimentação que também tem que ser cuidada.</p>
+                <p>E há muito cuidado da parte da ÂNIMAS, da associação, nesse aspeto. Saber se o cão vai estar confortável, se vai realmente ajudar, e se ele próprio vai estar confortável. Ou seja, se ambas as partes estão preparadas para receber um ao outro. Isso sim.</p>
+                <p>O colete, antes de mais, é um meio de identificação. Se bem que, infelizmente, não sei se é só em Portugal, mas estamos num país, tenho que falar da experiência própria, em que há muito desconhecimento. Muito desconhecimento.</p>
+                <p>Ainda hoje, em dia em que eu vou a alguns sítios e não o querem deixar entrar. E eu tenho que estar a mostrar a documentação. Mas além de ter que mostrar a documentação, que eu até compreendo, a documentação existe para ser mostrada, eu tenho que estar a explicar o que é, como é que funciona, e a lei. Sim, eu tive quase a ser expulso de um restaurante porque não queriam lá o Hino, e eu a explicar que o Hino era um cão de assistência, que por lei não podiam fazer isso. E pronto, eu ia explicar tudo, tinha que mostrar a documentação. Pronto, há muitos entraves ainda.</p>
+                <p>Mesmo com os seguranças, mesmo com seguranças de eventos, e ainda há pouco tempo na Feira de Março em Aveiro, queriam barrar a entrada nos pavilhões, porque ele não podia. Ou então tinha que ir ao colo. É inexplicável. Não, não, não. E eram seguranças que, queremos acreditar que há formação, tem formação, têm que estar preparados para isso, com esse tipo de abordagem. É completamente ridículo.</p>
+                <p>A comunicação, precisamente. Um bocado o vosso trabalho.</p>
+                <p>É assim, a ÂNIMAS faz um esforço muito grande para divulgar, aliás a ÂNIMAS insere-se em hospitais, está sempre disponível para a comunicação social daquilo que eu vejo e conheço.</p>
+                <p>Na rua há sempre uma exposição muito grande. Nós também somos sensibilizados para interagirmos com as pessoas e para espalharmos, entre aspas, um bocado a mensagem. Porque também temos esse lado didático.</p>
+                <p>Mas a verdade é essa. A verdade é essa. É que há muita falta de informação.</p>
+                <p>É o facto de eu me proteger pela lei que estou confortável quando me abordam. Portanto a lei não poderia mudar mais nada. É só mesmo a outra parte conseguir interpretá-la e ter também um bocadinho de conhecimento. Porque eu acho que a lei serve para ser usada mas até chegarmos ao ponto de termos que usar a lei há o bom senso, há informação.</p>
+                <p>-Há toda uma questão social.</p>
+                <p>Exatamente. É a questão social que... Mas não é só para estes casos, infelizmente.</p>
+                <p>Obrigado</p>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- HISTÓRIA 2 -->
+    <section id="historia2" class="page">
+        <div class="story-wrapper">
+
+            <h1 class="story-title">"São dois melhores amigos, são uma dupla imbatível..."</h1>
+
+            <div class="story-content">
+
+                <img src="imagens/cão2.png" class="story-img">
+
+                <div class="video-box">
+                    <iframe
+                        src="https://www.youtube.com/embed/wR2CCK54svg?si=m8ZNk3SNvu49nFRo"
+                        title="YouTube video player"
+                        referrerpolicy="strict-origin-when-cross-origin"
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                        allowfullscreen>
+                    </iframe>
+                </div>
+
+            </div>
+
+            <div class="text-box">
+                <h2>Sofia Ferreira (mãe da Carolina)</h2>
+
+                <!-- Transcrição entrevista -->
+                <p>Sim, já tínhamos uma noção do que era um Cão de Assistência, mas não para este tipo de situações. Desconhecíamos que a Carolina, por exemplo, teria direito a um Cão de Assistência ou como é que era possível a Carolina ter um Cão de Assistência. Tudo começou com um treinamento que a gente fez no CRN, no Centro de Reabilitação do Norte.</p>
+                <p>A Carolina fez lá três períodos de terapias intensivas, onde tínhamos a presença uma vez por semana da Ânimas. Na altura era a Catarina que ia lá com e foi aí que a gente começou a ter noção do que realmente do que os Cães de Assistência faziam, que tipo de trabalhos é que eles desenvolviam e o quanto eles eram fundamentais tanto para as crianças como para os adultos, porque isto é excepcional. O que não sabíamos é que nós teríamos direito a candidatarmo-nos para ter um Cão de Assistência.</p>
+                <p>Tivemos a alta do internamento, fomos num shopping aqui perto, que é na nossa zona, e reconhecemos os coletes da Ânimas. Era a treinadora do Goldi que andava a treinar o Goldi. Por acaso era o Goldi que andava a ser treinado naquela altura.</p>
+                <p>E eu disse à Carolina, “olha, tal dia as senhoras dos cãezinhos do CRN”, que era assim que a gente falava, “não queres ir ver?”. Aquilo foi logo ali um amor à primeira vista. Eles brincavam no chão durante muito tempo.</p>
+                <p>O Goldi teve ali logo uma empatia muito grande com a Carolina. Longe de sabermos que poderíamos vir a ter o Goldi. A Sandra, treinadora do Goldi, foi muito comunicativa logo na hora.</p>
+                <p>Explicou-nos como é que a gente teria a possibilidade de nos candidatarmos a ter o Cão de Assistência. Explicou-nos ali os passos todos certinhos. E nós fizemos a candidatura.</p>
+                <p>Excecional. Foi mesmo muito bom. Eu nunca pensei que ele fosse um moldar tão grande.</p>
+                <p>Porque o Goldi adapta-se muito facilmente. Nós vamos às compras, nós vamos à escola, nós vamos passear, nós estamos em casa. Por exemplo, a Carolina de 4 em 4 meses faz uma intervenção a nível hospitalar, que é a toma da medicação dela.</p>
+                <p>E temos de estar o dia todo no hospital. O Goldi está o dia todo no hospital. Claro que nós vimos com ele cá fora, para ele também fazer as necessidades dele. E também ser cão, porque não deixa de ser um cão. Mas está o dia todo fechado dentro de um hospital. E ele adapta-se muito bem.</p>
+                <p>O Goldi é um... Ah pá! Eu costumo dizer que é o segundo filho.</p>
+                <p>A nível de tarefas que ele ajuda a Carolina. A Carolina leva-o todos os dias para a escola. Ele faz o acompanhar da Carolina.</p>
+                <p>E ajuda em tudo. A Carolina deixa cair um lápis, uma borracha, uma afia e ele a apanha. A Carolina ausenta-se um bocadinho da beira dele e ele já está com um olho nela a ver onde é que ela anda.</p>
+                <p>Tira sapatos, abre portas, abre gavetas, acende e apaga a luz. Tanta coisa que ele faz. A nível da autoestima, a nível da confiança, a nível de tudo.</p>
+                <p>Quando nós descobrimos a doença da Carolina, tínhamos que explicar que ela ia ter algumas limitações perante outras crianças. Não é fácil uma criança se mentalizar disso. Depois que o Goldi veio para as nossas vidas, principalmente para a vida da Carolina, a Carolina ganhou uma autoconfiança enorme.</p>
+                <p>Ok, então se calhar não é tão aborrecido de ser diferente, porque eu tenho algo que os outros não têm. O Goldi fê-la crescer. Fê-la sentir-se com um bocadinho mais de poder. “Ok, eu consigo fazer isto e aquilo. O Goldi vai comigo.” Por exemplo, na semana passada a Carolina teve uma visita de estudo.</p>
+                <p>E o Goldi não vai para as visitas de estudo por minha opção. É muita responsabilidade entregar as crianças e ainda entregar um Cão de Assistência aos auxiliares e ir para o centro de Aveiro, que era o caso. Eu não me sinto segura e não o faço.</p>
+                <p>Então ele fica comigo. Vai comigo para onde for, ele vai. A Carolina um dia a seguir já me estava a dizer a mãe.</p>
+                <p>Ele vai comigo amanhã, não vai? Porque já faltava algo. Mesmo lá na escola, os funcionários já dizem: “Falta aqui o Goldi. A Carolina não é igual sem o Goldi.” É uma dupla.Eles têm que andar juntos.</p>
+                <p>Tive um outro estabelecimento em que tive mesmo que ser um bocadinho mais fria e mais rigorosa e chegar ao ponto de ter que fazer uma reclamação por escrito, porque eu não deixo falhar mesmo isso. Porque acho que temos que ter formação, mas principalmente temos que ser cívicos.</p>
+                <p>Às vezes a abordagem como as pessoas fazem não é a melhor, ao ponto de chegarem à nossa beira e dizer: “Porque é que têm um cão?” porque nenhuma de nós era cega. Há uma falta de conhecimento, há uma falta de sensibilidade para as pessoas abordarem as situações, as questões.</p>
+                <p>Eu posso dizer que eles são dois irmãos, são dois melhores amigos, são uma dupla imbatível.</p>
+                <p>Uma dupla imbatível mesmo.</p>
+
+            </div>
+
+        </div>
+    </section>
+
+    <!-- HISTÓRIA 3 -->
+    <section id="historia3" class="page">
+        <div class="story-wrapper">
+
+            <h1 class="story-title">"É preciso ir sensibilizando..."</h1>
+
+            <div class="story-content">
+
+                <img src="imagens/cão3.png" class="story-img">
+
+                <div class="video-box">
+                    <iframe
+                        src="https://www.youtube.com/embed/RzcYnofzwNM?si=IF9BK7kFzO21b25I"
+                        title="YouTube video player"
+                        referrerpolicy="strict-origin-when-cross-origin"
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                        allowfullscreen>
+                    </iframe>
+                </div>
+
+            </div>
+
+            <div class="text-box">
+                <h2>Abílio Leite</h2>
+
+                <!-- Transcrição entrevista -->
+                <p>A ÂNIMAS foi fundada em 2002. A líder é a professora Liliana de Sousa, uma etóloga, professora no ICBAS, juntamente com outros professores universitários, sobretudo professores universitários, mas também outras pessoas, todas convictas da mais-valia da interação homem-animal e dos benefícios que daí advém.</p> 
+                <p>Nós trabalhamos essencialmente com cães pela portabilidade. Eu posso andar com o meu cão para trás e para a frente sempre que quiser. Por exemplo, um cavalo também tem uma relação excelente com o ser humano, mas já não é tão prático andar com ele para todo lado, não é?</p> 
+                <p>A grande diferença é que a primeira legislação que surgiu foi relativamente aos cães guia. E em 2007, surgiu a Lei 74 de 2007, que colocou algumas regras, nomeadamente: Os cães de assistência dividem-se em três, o cão de assistência é, digamos, o chapéu que engloba três ramos: Os cães de guia, para pessoas cegas, os cães de serviço, para pessoas que tenham problemas diversos, desde mobilidade, epilepsia, autismo, diabetes, etc e os cães para pessoas surdas. Os cães de assistência dividem-se em três ramos. A escola de cães de guia faz os cães de guia e nós, ÂNIMAS, fazemos os cães de serviço e os cães para surdos. Genericamente, utilizamos a expressão cães de assistência por uma questão de maior praticidade, para não haver cães para surdos, cães de serviço para pessoas de cadeira de rodas, cães para diabetes. Não, cães de assistência.</p> 
+                <p>É um processo demorado. A pessoa tem que ter atestado multiusos de incapacidade, sem isso, nós nem sequer abrimos o processo. Depois, são entrevistadas. A família, o agregado familiar do beneficiário é entrevistado, para nós percebermos se é uma mais-valia para o beneficiário e se há algum entrave na família. E perante aquilo que o beneficiário nos diz e também vermos que expectativas é que a pessoa tem para o cão. Nós temos que ter muito cuidado, porquê? Porque depois as expectativas não são cumpridas e a culpa ou é do cão ou é da ÂNIMAS. Em caso de dúvida, nós preferimos não entregar.</p> 
+                <p>96% dos cães de assistência a nível mundial são labradores. Porquê? Porque são cães que adoram estar com a pessoa, são cães que são facilmente treináveis, por comida fazem tudo, e estão sempre bem dispostos. Às vezes as pessoas dizem: “Mas eu quero um Pastor Alemão”. O Pastor Alemão é mais inteligente que o Labrador. Aprende mais depressa que o Labrador. Faz melhor que o labrador. Agora há um problema, é um cão de guarda. O beneficiário se algum dia tiver uma crise e for necessário o INEM chegar para o auxiliar, o Pastor Alemão está lá e está numa posição que diz: “ninguém toca no meu dono.” E eles chegam ali e não lhe podem tocar. O labrador está lá e diz: “Vocês resolvam isto porque eu logo à noite tenho que comer. E ele assim não me dá de comer.” É diferente.</p> 
+                <p>E portanto, o que é que nós fazemos? Nós não temos criação. Temos alguns criadores com os quais temos uma relação de confiança e já conhecemos a genealogia dos progenitores. Escolhemos da ninhada. Numa ninhada de 10 aproveitamos 2. E depois esses 2 saem da ninhada aos 3 meses, ficam com a mãe até os 3 meses, saem da ninhada e vão para uma família de acolhimento até mais ou menos o ano de idade. Aí têm como função serem felizes. Aprender onde fazer as necessidades. Eventualmente saber andar à trela. Não queremos mais nada para além de levem-nos a passear, brincar, etc. Ao ano de idade, quer para macho quer para fêmea. No ano de idade, em princípio, a fêmea já teve o primeiro cio e o macho já alça a pata quando vai fazer para urinar já de forma constante. Mais ou menos após o ano de idade castramos os cães. 2 a 3 meses depois da castração fazemos uma avaliação de temperamento. Também fizemos quando fomos escolher os cachorros na ninhada. Voltamos a fazer uma avaliação de temperamento para vermos se dá ou não dá. Depois o cão entra num processo de treino. Os primeiros 6 meses é um treino semelhante a todos os cães de assistência. Regras básicas, digamos assim. No segundo semestre já temos identificado o beneficiário para quem ele vai. Começamos a treinar especificamente para o beneficiário em causa, se é epilepsia, se é cadeira de rodas, se é autismo, o que for.</p> 
+                <p>Um cão de assistência tem uma duração de trabalho de 10 anos. Depois é feito o acoplamento num processo em que o beneficiário aprende a lidar com o cão e nós vamos acompanhando-o para o resto da vida do cão. Até à reforma. E quando ele se reforma há várias hipóteses. Uma é ficar com o beneficiário, se o beneficiário assim o entender. Por norma é isso que acontece, porque todos vivem com ele diariamente. É uma relação extremamente próxima. Se quiser ficar com ele, fica se não quiser, fica connosco. Ficando connosco, nós vamos perguntar à família de acolhimento que o recebeu quando ele era bebé, se o quer. Se o quiser, fica com ele. Se não quiser, perguntamos ao treinador se o quer, o treinador que o treinou. Ou então fica connosco. Nós temos um espaço em Sabrosa, uma quinta do nosso coordenador dos instrutores, com condições para ter lá N cães. E, portanto, passa a ter uma reforma dourada. Felizmente até hoje todos os beneficiários quiseram ficar com o cão. Houve uma situação em que um beneficiário não pôde ficar com o cão. E aí nós escolhemos o cão, como é óbvio, sem qualquer tipo de problema. E foi logo adotado pela família de acolhimento dele.</p> 
+                <p>Nós depois vamos fazendo visitas no mínimo anuais para vermos como é que as coisas estão a correr. Se eles comerem a dose indicada para o peso indicado, eles têm que estar ali esbeltos, se não estiverem, algo se passa. E, portanto, nós não podemos permitir que eles tenham peso em excesso. O peso, o comportamento, etc, vamos avaliando isso tudo. Quando nós notamos que algo não está bem, retiramos o cão. O cão é sempre da ÂNIMAS. O cão é entregue gratuitamente, mas é assinado um contrato de comodidade. A pessoa sabe que o cão está a entregue, mas que o cão a qualquer momento volta. E isto porquê? Porque nós temos que ter a garantia de que podemos visitar o cão. Porque nós não queremos um cão maltratado, por muito bem treinado que ele seja, ele pode ir aguentando até um determinado limite. Mas ser continuamente maltratado, pode depois um dia ferrar. E depois de ferrar, vai dizer que a culpa é do treino.</p>
+                <p>Aquela questão dos transportes, etc. Os transportes, Táxis e Úbers, isso é um drama. Nós temos uma beneficiária que todos os dias apresenta uma queixa na esquadra. Ela já a conhecem e ela entra na esquadra e já lhe estão a dar o formulário para ela fazer mais uma queixa. Mas ela também não desiste e está ali continuamente a apresentar queixas. Pronto, táxis e Úbers é complicado, extremamente complicado. Eles aceitam a viagem, chegam, veem que há um cão, põem-se a andar, apesar do cão ir aos nossos pés. Não vai no banco, vai aos pés. Mas mesmo assim não aceitam. E depois há muita desinformação. Há alguns seguranças, e algumas pessoas que ainda dizem que não é cão guia. Cão guia, isso já foi englobado nos cães de assistência em 2007, já vão quase 20 anos, e portanto já é uma geração, já se devia estar isto tudo regularizado. Mas pronto, é preciso ir sensibilizando.</p> 
+                <p>O que é que é dramático com aquelas diversidades funcionais invisíveis. O autismo, a epilepsia, por exemplo, em que a pessoa aparentemente não tem nada, e depois vê-se ali numa situação de crise em que se a pessoa a abordar educadamente, a pessoa também não tem problema nenhum em mostrar a documentação.</p>
+                <p>Nós também sensibilizamos para isso. Mas por vezes já a abordagem não é mais adequada. E isso depois gera ali um escalar de crises.</p>
+                <p>Já tivemos situações, nomeadamente de epilepsia, em que a pessoa tem uma convulsão logo ali ao lado. E depois a pessoa quer abordar, pedir muitas desculpas.</p>
+                <p>-Mas são situações que poderiam ser evitáveis?</p>
+                <p>Formação, sensibilização, eu acho que é também fruto dos dias de hoje a falta de empatia que a sociedade tem perante o próximo. Portanto, só não querem saber. Só querem saber do seu próprio umbigo e pronto, não querem saber de mais nada. Precisa de ajuda, não precisa de ajuda, precisa disto, não precisa daquilo. Não querem saber. E isso acho que é um bocadinho falta de empatia, egoísmo, pronto, não sei. E pronto, isso sim é um problema complicado.</p> 
+                <p>Pronto, é simples. Nós somos uma IPSS, temos o Estatuto de Utilidade Pública e a nossa principal fonte de receita é a consignação do IRS. E é isso que nós apelamos a todas as pessoas, é que façam a consignação do IRS, mesmo que não seja para a ÂNIMAS, seja para outra entidade qualquer. Não sai do bolso da pessoa, é 1% que é retirado ao bolo que fica no Estado, não é? E portanto, não quer dar à ÂNIMAS, dê aos bombeiros da sua terra, mas dê!</p> 
+                <p>Há muito para crescer. Pronto, isso é a nossa principal fonte de receita e depois também temos algumas parcerias importantes no que diz respeito ao apoio de mecenas. E depois são os donativos também pontuais, não só de empresas, mas também de particulares, que se podem associar. A cota também não é assim significativa, são 30€ por ano. E pronto, com isso tudo juntamos e tentamos fazer o nosso melhor.</p> 
+                <p>A pessoa que necessita de um cão da ÂNIMAS apenas tem que manifestar o interesse através de um e-mail, manifestar o interesse, anexar o atestado multiusos, esperar para ser chamada para uma entrevista, explicar porque é que quer receber o cão e, portanto, todo o processo é gratuito. Qual é a exceção? É quando a pessoa tem um cão e quer que o seu cão seja cão de assistência. E aí há um custo de avaliação do temperamento inicial do cão, em que nós avaliamos o temperamento do cão e logo dizemos se aceitamos ou não. Mas a pessoa antes tem que nos ter enviado também o atestado multiusos. Sem o atestado multiusos nós não nos mexemos. Mas, tirando isso, o processo é todo gratuito.</p> 
+                <p>Quer dizer, eu para falar sobre os cães posso estar 24 horas a falar. Os cães são uns seres fantásticos que leem perfeitamente a nossa maneira de ser, as nossas necessidades, sobretudo do seu dono, entre aspas, chamemos-lhe o que quiser. E ele consegue criar em nós um relacionamento que nos faz mais felizes, que nos ajuda no que for necessário, mas conseguem ajudar-nos em pequenas coisas e nomeadamente no que diz respeito à autonomia e melhoria do nosso bem-estar, porque deixamos de estar tão dependentes de terceiros.</p> 
+                <p>-Obrigado.</p>
+                <p>Nada, eu agradeço o vosso interesse.</p> 
+                <p>-Obrigado, até à próxima.</p>
+
+            </div>
+
+        </div>
+    </section>
+
+    <!-- HISTÓRIA 4 -->
+    <section id="historia4" class="page">
+        <div class="story-wrapper">
+
+            <h1 class="story-title">"Ela veio para me ajudar no dia a dia."</h1>
+
+            <div class="story-content">
+
+                <img src="imagens/cão4.png" class="story-img">
+
+                <div class="video-box">
+                    <iframe
+                        src="https://www.youtube-nocookie.com/embed/vKxVpQnqAng"
+                        title="YouTube video player"
+                        referrerpolicy="strict-origin-when-cross-origin"
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                        allowfullscreen>
+                    </iframe>
+                </div>
+            </div>
+
+            <div class="text-box">
+                <h2>Fátima Rocha</h2>
+
+                <!-- Transcrição entrevista -->
+                <p>Evidentemente que tinha muitas dificuldades, como é óbvio. Precisava sempre do meu filho ou do meu marido para me levar ao trabalho. Eu nunca baixei a cabeça.</p>
+                <p>Tive em 2009 uma depressão muito grande pelo facto de ter perdido a visão na totalidade porque tive um acidente doméstico. E como é óbvio, não é fácil para ninguém, ou seja, para mim, assumir essa situação. Mas lá fui levando a minha vida, quer em casa, quer no trabalho.</p>
+                <p>Nunca abandonei o meu posto de trabalho, a não ser dois anos que estive em casa a fazer tratamento à cabeça. Fora daí, continuei a minha rotina, ir para o trabalho e com o meu marido e o meu filho fazer tudo o normal possível. Confesso que foi um processo um bocado complicado.</p>
+                <p>Isto é, em 2017 conheci um jovem que tinha um cão-guia. Foi precisamente neste jardim, no Palácio Cristal. Verifiquei a situação do cão-guia, como ele andava e então tive uma conversa com ele e ele disse para a minha pessoa que eu também poderia ter um cão-guia, se quisesse.</p>
+                <p>Em 2017 fiz a inscrição para a escola de cães-guia, informei-me do que precisava e esperei até 2020 pelo cão-guia. Foi-me entregue em 2020. O processo foi esse.</p>
+                <p>Em 2020, dia 6 de janeiro de 2020, fui chamada para ficar na casa onde temos que ficar durante uma semana. No dia 7 foi-me entregue o cão-guia logo de manhã às 9 horas e a primeira reação que tive foi uma reação de alegria porque a cachorrinha saltou logo para mim. Eu disse que era esta que me vai ajudar no meu dia a dia.</p>
+                <p>Fiquei felicíssima. Tive em estágio lá uma semana e outro cá. Não houve nenhuma dificuldade.</p>
+                <p>Achei muito a graça na primeira noite que ela dormiu lá no quarto. Tinha a caminha dela e eu tinha a minha. Ela tirou uma bota.</p>
+                <p>Eu tinha umas botas que foi em janeiro, precisamente no mês de frio. Tinha umas botas de pelo e ela foi lá e tirou uma bota. E escondeu uma bota.</p>
+                <p>O que é que acontece? Eu de manhã, quando queria-me calçar, não tinha a bota. Eu dizia “Bazi a bota onde está, onde está?”</p>
+                <p>Ela não me dava a bota. Fui a primeira vez à cama e não estava. Estava consumida.</p>
+                <p>Digo eu para mim mesma, como é que eu vou me calçar? Não vou de chinelos, certamente. Portanto, fui a segunda vez à cama e a bota estava lá na caminha dela.</p>
+                <p>A partir desse momento, nos outros dias, escondi as botas dentro da gaveta porque senão ela me roubava as botas.</p>
+                <p>Era para ter o cheiro. Porque ela vinha de uma família de acolhimento e, portanto, eu era uma pessoa estranha.</p>
+                <p>Ela estava todos os dias na minha cama para saber quem eu era. -Para se adaptar a si- Sim exatamente.</p>
+                <p>Se eu estava bem, se não estava. Isso também para mim foi um bocado complicado. Ela cheirava um bocado e eu não queria puxar muito, tinha medo de a magoar.</p>
+                <p>E eles diziam que tinha que puxar porque se não puxares ela não respeita. E depois o que é que acontece?</p>
+                <p>Vai-te levar contra as coisas. Então, eu comecei a ter um bocadinho mais de compreensão e pensava comigo mesma. Ela tem que fazer aquilo que eu ordeno.</p>
+                <p>Porque ela veio para me ajudar no dia a dia. Então, costuma um bocadinho, é óbvio. Ainda chorei bastante, porque às vezes enganava-me num sobe tinha que lhe dizer “Dá escada”, tinha que utilizar os comandos.</p>
+                <p>Outra altura foi que estava no centro da cidade, onde ele também era o mesmo taxista que se recusou a levar-me a mim, a minha cachorra e a minha assistente pessoal. Também fiquei revoltada e eu mostrei-lhe o documento que tinha comigo e ele não quis acreditar.</p>
+                <p>Disse-me simplesmente, “Não quer que me suje o banco.” E então eu não quis me chatear. Outro senhor que estava atrás, taxista e levou-nos.</p>
+                <p>E eu hoje sei o que fazer quando alguém recusar. Hoje ninguém recusa a nada, mas se recusar sei o que fazer.</p>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- SOBRE NÓS -->
+    <section id="sobrenos" class="page">
+
+        <h1 class="page-title">Sobre Nós</h1>
+
+        <div class="equipa">
+
+            <div class="membro" onclick="openMember('barbara')">
+                <img src="imagens/barbaracao.jpeg">
+                <p>Bárbara Mendes</p>
+            </div>
+
+            <div class="membro" onclick="openMember('francisca')">
+                <img src="imagens/kikafaisca.jpeg">
+                <p>Francisca Barros</p>
+            </div>
+
+            <div class="membro" onclick="openMember('simao')">
+                <img src="imagens/Cão Simão.jpeg">
+                <p>Simão Assunção</p>
+            </div>
+
+        </div>
+
+        <!-- EXPLICAÇÃO DO PROJETO !-->
+        <div class="about-text">
+            <h2>Sobre o projeto</h2>
+            <p> O presente webdocumentário foi realizado no âmbito da Unidade Curricular "Atelier Multimédia", orientada pelos professores Cristina Machado (componente de vídeo), Ricardo Baptista (componente de informática e regente) e Susana Barreto (componente de design), da Licenciatura em Ciências da Comunicação, na Faculdade de Letras da Universidade do Porto.</p>
+            <p>Desenvolvemos este trabalho com o objetivo de sensibilizar e informar as pessoas sobre a importância dos cães de assistência na vida de pessoas com diferentes tipos de necessidades específicas.</p>
+            <p>O <i>website</i> contempla entrevistas e testemunhos que permitem perceber melhor o impacto positivo destes cães no dia a dia dos seus tutores.</p>
+        </div>
+
+    </section>
+
+    <!-- APRESENTAÇÕES INDIVIDUAIS-->
+    <div id="member-modal" class="member-modal">
+
+        <div class="member-content">
+    
+            <span class="close-btn" onclick="closeMember()">&times;</span>
+    
+            <img id="member-img" src="">
+            
+            <div class="member-text">
+                <h2 id="member-name"></h2>
+                <p id="member-description"></p>
+            </div>
+    
+        </div>
+    
+    </div>
+
+    <!-- RODAPÉ -->
+    <footer class="footer">
+
+        <div class="footer-logos">
+            <img src="imagens/Logo-CC-trabalhos.png" alt="Logo 1">
+            <img src="imagens/Logotipo_FLUP" alt="Logo 2">
+        </div>
+
+    <p>© 2026 Lado a Lado — Todos os direitos reservados</p>
+
+</footer>
+
+
+</body>
+</html>
